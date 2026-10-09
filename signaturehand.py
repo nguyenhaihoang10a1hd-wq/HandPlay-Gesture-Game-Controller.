@@ -81,7 +81,7 @@ def detect_gesture(hand,side):
     if  L_sign(hand):
         return "kd" if side == "Left" else "ka"
     if is_thumbs_up(hand):
-        return "w" if side == "Left" else "l"
+        return "i" if side == "Left" else "l"
     if thumb_side(hand):
         return "d" if side == "Left" else "a"
     if is_point_up(hand):

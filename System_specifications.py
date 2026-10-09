@@ -6,7 +6,7 @@ import cv2
 
 options = vision.HandLandmarkerOptions(
        base_options=python.BaseOptions(
-       model_asset_path=r"C:\Users\DELL\Downloads\hand_landmarker.task"
+       model_asset_path=r"C:\Users\DELL\PycharmProjects\PythonProjectdeeplearning\hand_landmarker.task"
        ),
        running_mode=vision.RunningMode.VIDEO,
        num_hands=2,

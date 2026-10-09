@@ -23,7 +23,7 @@ cap = cv2.VideoCapture(0)
 
 # Mỗi cử chỉ ứng với một nhóm phím được GIỮ cùng lúc
 GESTURE_KEYS = {
-    "w": ["w"],
+    "i": ["i"],
     "a": ["a"],
     "d": ["d"],
     "kd": ["k", "d"],
