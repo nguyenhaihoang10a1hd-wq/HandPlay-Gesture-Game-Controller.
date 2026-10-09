@@ -78,18 +78,12 @@ def is_point_up(hand):
 
 def detect_gesture(hand,side):
     """Trả về tên cử chỉ của bàn tay (hoặc None)."""
-    L = L_sign(hand)
-    if L == "right":
-        return "kd"
-    if L == "left":
-        return "ka"
+    if  L_sign(hand):
+        return "kd" if side == "Left" else "ka"
     if is_thumbs_up(hand):
         return "w" if side == "Left" else "l"
-    c = thumb_side(hand)
-    if c == "right":
-        return "d"
-    if c == "left":
-        return "a"
+    if thumb_side(hand):
+        return "d" if side == "Left" else "a"
     if is_point_up(hand):
         return "s" if side == "Left" else "u"
     return None
