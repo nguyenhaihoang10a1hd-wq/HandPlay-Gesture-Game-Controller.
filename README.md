@@ -1,3 +1,6 @@
+
+
+
 Gesture Controls
 
 HandPlay recognizes the following hand gestures and automatically simulates keyboard inputs:
